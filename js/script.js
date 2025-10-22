@@ -102,7 +102,7 @@ async function displayPopularMovies() {
 }
 // Display Popular TV SShows
 
-/*async function displayPopularShows() {
+async function displayPopularShows() {
   const { results } = await fetchAPIData('tv/popular');
 
   results.forEach((show) => {
@@ -134,7 +134,7 @@ async function displayPopularMovies() {
 
     document.querySelector('#popular-shows').appendChild(div);
   });
-}*/
+}
 
 //Display Movie Details
 async function displayMovieDetails() {
